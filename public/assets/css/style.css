@@ -10,6 +10,14 @@
 .pointer {
     cursor: pointer;
 }
+.serviciosT{
+    padding-top: 7%;
+    background-image: url("/assets/images/fondo2Taq.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+}
 
 .inicioDivT{
     height: 40rem;
@@ -17,8 +25,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 3%;
-
 }
 .nosotrosT{
      margin-top: -3%;
@@ -44,6 +50,25 @@
     background-size: cover;
 
 }
+.PropValueDiv{
+    background-image: url("/assets/images/bannerTacos.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.tacosTitle{
+    font-size: 4rem;
+    margin-bottom: 5%;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding-top: 3%;
+    padding-bottom: 6%;
+}
 .tablePrivacidad{
     margin-bottom: 15%;
 }
@@ -51,12 +76,56 @@
     padding-top: 3%;
     margin-top: -3%;
 }
-.componentsDiv{
-    margin-top: -5%;
+
+.autenticos{
+    text-shadow: 2px 2px #FEDAA0;
+    
+}
+.colorLightTaqueñitos{
+    color: #FEDAA0;
+}
+.colorStrongTaqueñitos{
+    color: #E84030;
+    font-size: 4rem;
+    margin-top: 3%;
+    
+}
+.buttonMenu2{
+    margin-left: 2%;
+}
+.titlesTaque{
+    margin-left: 3%;
+}
+.buttonAction{
+    color: #FEDAA0 !important;
+    background-color: #E84030 !important;
+}
+.buttonMenuM{
+    margin-left: 3%;
 }
 
 
+
+.imageCabezaBlanca{
+    width: 15rem !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.centerImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
 @media (min-width: 992px) {
+    .autenticos{
+        font-size: 4rem;
+    }
     .rounded-tr-lg-0 {
         border-top-right-radius: 0;
     }
@@ -67,12 +136,46 @@
     
 }
 
-@media(min-width:992px){
-    
-}
 @media(max-width:991px){
-    .componentsDiv{
-        margin-top: -31%;
+    .buttonMenuM, .titlesTaque{
+        margin-left: 8% !important;
+    }
+    
+    .galImags{
+        margin-top: 10% !important;
+    }
+    .colorStrongTaqueñitos{
+        font-size: 2rem;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        margin-left: 3%;
+    }
+    .imgGal{
+        width: 46% !important;
+        margin-left: 2%;
+    }
+    .historiaTaque{
+        margin-top: 10%;
+    }
+    .tacosTitle{
+        font-size: 3rem;
+    }
+    .autenticos{
+        font-size: 3rem;
+    }
+    .overlay{
+        padding-bottom: 10%;
+    }
+    .serviciosT{
+        margin-top: -5%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+        background-image: url("/assets/images/fondo2TaqRes.jpg");;
+
+    }
+    .secondCard{
+       margin-top: 10%;
+
     }
     .divCatchUp{
         display: none;
