@@ -111,7 +111,9 @@
     margin-left: 1%;
 }
 
-
+#menuDisplay{
+    margin-top: -5%;
+}
 
 .imageCabezaBlanca{
     width: 15rem !important;
@@ -148,6 +150,12 @@
 }
 
 @media(max-width:991px){
+    .menuDisplayBttmElement{
+        margin-top: 15%;
+    }
+    #menuDisplay{
+        margin-top: -30%;
+    }
     .menuButtonDiv{
         margin-top: 8%;
         padding: 4% !important;
