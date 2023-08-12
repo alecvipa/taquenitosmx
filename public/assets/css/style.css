@@ -10,6 +10,9 @@
 .pointer {
     cursor: pointer;
 }
+.envioTitle{
+    font-size: 18px;
+}
 .serviciosT{
     padding-top: 3%;
     background-image: url("/assets/images/fondo2Taq.jpg");
@@ -23,8 +26,16 @@
 }
 
 .inicioDivT{
-    height: 40rem;
+    height: 26rem;
     background-image: url("/assets/images/bannerTaqueInicio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerClaroInicio{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-image: url("/assets/images/bannerClaro.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,6 +103,9 @@
     font-size: 4rem;
     margin-top: 3%;
     
+}
+.fontColorOrange{
+    color: #E84030;
 }
 .buttonMenu2{
     margin-left: 2%;
