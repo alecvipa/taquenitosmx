@@ -5,6 +5,8 @@
 }
 .footer{
     padding-top: 3%;
+    padding-bottom: 2%;
+    margin-top: 3%;
     
 }
 .pointer {
@@ -21,6 +23,14 @@
     background-size: cover;
     padding-bottom: 5%;
 }
+.bg-light-taque{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-image: url("/assets/images/bannerClaro.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bannerMenu{
     background-image: url("/assets/images/menuTaqueBanner.jpg");
 }
@@ -34,7 +44,7 @@
 }
 .bannerClaroInicio{
     padding-top: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     background-image: url("/assets/images/bannerClaro.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -111,7 +121,7 @@
     margin-left: 2%;
 }
 .titlesTaque{
-    margin-left: 3%;
+    
 }
 .buttonAction{
     color: #FEDAA0 !important;
@@ -159,6 +169,10 @@
     }
     .menuBtns{
         font-size: 1rem !important;
+    }
+    .cardsMenu{
+        margin-top: 3%;
+        margin-bottom: 5%;
     }
     
 }
