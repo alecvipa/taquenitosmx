@@ -46,7 +46,7 @@
             };
             obj.open("post", form.action, true);
             obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
-            obj.send(JSON.stringify({ name: form.name.value, number: form.number.value, email: form.email.value }));
+            obj.send(JSON.stringify({ name: form.name.value, number: form.number.value, email: form.email.value, message: form.message.value }));
             alert("¡En breve te contactaremos!");
             $(".formInput").val(" ");
             return false;
@@ -73,9 +73,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/">Inicio</a>
                     </li>
-                    <li class="nav-item">
+                    {{!-- <li class="nav-item">
                         <a class="nav-link" href="#nosotros">Nosotros</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
                         <a class="nav-link" href="/menu">Menú</a>
                     </li>
@@ -90,10 +90,10 @@
             <!-- Right elements -->
             <div class="d-flex align-items-center">
                 <!-- Icon -->
-                <a class="text-reset me-3" href="https://web.facebook.com/terrazai662" target="_blank">
+                <a class="text-reset me-3" href="https://www.facebook.com/taquenitosmx" target="_blank">
                     <i class="fa-brands fa-facebook" style="color: #3b5998;"></i>
                 </a>
-                <a class="text-reset me-3" href="https://www.instagram.com/terrazai662/?igshid=YmMyMTA2M2Y="
+                <a class="text-reset me-3" href="https://instagram.com/taquenitosmx?igshid=MzRlODBiNWFlZA=="
                     target="_blank">
                     <i class="fa-brands fa-instagram" style="color: #F56040;"></i>
                 </a>
@@ -117,7 +117,7 @@
                 <div class="col-md-6 text-center">
                     <p><b>Los Taqueñitos</b> Todos los derechos reservados. Sus datos están
                         protegidos por
-                        la ley de privacidad. <span><a href="/privacidad" style="color: gray;">Visita nuestra
+                        la ley de privacidad. <span><a href="/privacidad" class="linkTaquenitos">Visita nuestra
                                 política de privacidad</a></span></p>
                 </div>
                 <div class="col-md-3"></div>

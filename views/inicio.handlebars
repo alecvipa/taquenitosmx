@@ -16,7 +16,7 @@
     <div id="nosotros" class="nosotrosT container">
         <div class="fixed-action-btn" id="fixed1">
             <a class="btn btn-floating btn-primary btn-lg text-white" style="background-color: #25D366;"
-                href="https://api.whatsapp.com/send?phone=525581809928&text=Hola, Me gustaría recibir información sobre Los Taqueñitos"
+                href="https://api.whatsapp.com/send?phone=525581809928&text=Hola, Me gustaría hacer un pedido de Los Taqueñitos"
                 target="_blank">
                 <i class="fab fa-whatsapp fa-2xl"></i>
             </a>
@@ -62,9 +62,10 @@
                             <p class="card-text">📲🚚 Ordena con un simple toque y disfruta de la magia de la cocina
                                 tradicional en la comodidad de tu hogar. ¡Esta es tu oportunidad de deleitar tus
                                 paladar!</p>
-                            <a href="#!" class="btn btn-dark btn-rounded">Entra aquí!</a>
+                            <a href="#!" class="btn btn-dark btn-rounded" onclick="location.href='/menu';">Entra
+                                aquí!</a>
                         </div>
-                    </div>
+                    </div> <br>
                 </div>
                 <div class="col-md-6">
                     <div class="card">
@@ -74,7 +75,8 @@
                             <hr>
                             <p class="card-text">💻🛵 Sé uno de los primeros en disfrutar nuestras nuevas Tortas de
                                 Cochinita Pibil, disponibles exclusivamente en Rappi y Delivery por mensaje privado.</p>
-                            <a href="#!" class="btn btn-dark btn-rounded">Conoce el menú</a>
+                            <a href="#!" class="btn btn-dark btn-rounded" onclick="location.href='/menu';">Conoce el
+                                menú</a>
                         </div>
                     </div>
                 </div>
@@ -88,9 +90,9 @@
                             <hr>
                             <p class="card-text">Para acompañar, completa tu experiencia con nuestras aguas del día de
                                 Horchata y Jamaica. 🥤🌿 Un maridaje perfecto con cada bocado lleno de sabor.</p>
-                            <a href="#!" class="btn btn-dark btn-rounded">Ves más</a>
+                            <a href="#!" class="btn btn-dark btn-rounded" onclick="location.href='/menu';">Ves más</a>
                         </div>
-                    </div>
+                    </div> <br>
                 </div>
                 <div class="col-md-6">
                     <div class="card">
@@ -102,44 +104,16 @@
                             <p class="card-text">📲🎉 ¡No tienes que salir de tu paraíso en la playa para probar
                                 nuestros suculentos tacos! Ordena en línea y disfruta de envío gratuito directamente a
                                 tu ubicación.</p>
-                            <a href="#!" class="btn btn-dark btn-rounded">Ordena ya!</a>
+                            <a href="#!" class="btn btn-dark btn-rounded" onclick="location.href='/menu';">Ordena
+                                ya!</a>
                         </div>
-                    </div>
+                    </div> <br>
                 </div>
             </div>
         </div>
     </div>
 
-    {{!-- <div class="PropValueDiv">
-        <div class="overlay">
-            <div class="container">
 
-                <div class="row">
-                    <h1 class="text-center text-white tacosTitle">Tacos premium con el sabor del norte...</h1>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="/assets/images/womanEating.png" class="rounded-4 shadow-4 centerImg" alt=""
-                            aria-controls="#picker-editor">
-
-                    </div>
-                    <div class="col-md-6">
-                        <h4 class="text-white historiaTaque">
-                            La primera sucursal de Los Taqueñitos en la ciudad de México. Este restaurante surge como
-                            una
-                            visión
-                            para entregar comida de calidad con la receta especial de la familia.
-                        </h4>
-                        <button type="button" class="btn btn-rounded buttonAction"
-                            onclick="location.href='/menu';">Menú</button> <br> <br>
-                        <h2 class="text-white">"La receta de la familia, trabajada durante dos generaciones y abierta al
-                            público con un toque del norte."</h2>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div> <br> <br> --}}
     <div class="galleryDiv">
         <div class="container">
             <div class="row">
@@ -147,13 +121,10 @@
                     <h1 class="colorStrongTaqueñitos titlesTaque">Más que un antojo...</h1> <br>
                     <h3 class="titlesTaque">
                         ¡El auténtico sabor de la Cochinita Pibil ha llegado a Playa del Carmen con Taqueñitos!
-                        Disfruta de la delicia tradicional en cada bocado, ¡directo a tu puerta!
+                        Disfruta de la delicia tradicional en cada bocado, directo a tu puerta. <br> <br>
 
-                    </h3> <br>
-                    <button type="button" class="btn btn-lg btn-rounded buttonAction buttonMenuM"
-                        onclick="location.href='/galeria';">Ver Galería</button> <button type="button"
-                        class="btn btn-lg btn-rounded buttonAction buttonMenu2 "
-                        onclick="location.href='/menu';">Menú</button>
+                        <button type="button" class="btn btn-lg btn-rounded buttonAction buttonMenu2 "
+                            onclick="location.href='/menu';">Ver Menú</button>
 
                 </div>
 
@@ -175,9 +146,9 @@
     </div> <br> <br>
     <div class="mapaTaque">
         <div class="container">
-            <div class="row">
+            <div class="">
                 <h5 class="colorStrongTaqueñitos text-center">Visítanos en Playa del Carmen</h5>
-            </div><br> 
+            </div><br>
             <div class="row">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3733.3490761119488!2d-87.08197402475355!3d20.655372580902196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDM5JzE5LjMiTiA4N8KwMDQnNDUuOCJX!5e0!3m2!1ses!2smx!4v1691880663355!5m2!1ses!2smx"

@@ -1,0 +1,95 @@
+<div class="contactoDiv"> <br>
+    <div data-draggable="true" class="" style="position: relative;">
+        <!---->
+        <!---->
+        <section draggable="false" class="container" data-v-271253ee="">
+            <section class="mb-10 text-center">
+                <style>
+                    hr.divider-vertical {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        width: 1px;
+                        background-image: linear-gradient(180deg, transparent, hsl(0, 0%, 40%), transparent);
+                        background-color: transparent;
+                        height: 100%;
+                    }
+                </style> <!-- Background image -->
+                <div class="p-5 bg-image"
+                    style="background-image: url(/assets/images/contactoBanner.jpg); height: 388px; background-size: cover; background-position: 50% 50%;"
+                    aria-controls="#picker-editor"></div> <!-- Background image -->
+                <div class="card mx-4 mx-md-5 shadow-5-strong"
+                    style=" margin-top: -100px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px); ">
+                    <div class="card-body py-5 px-md-5">
+                        <div class="container">
+                            <div class="row mb-5">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <h1>Contacto</h1>
+                                    <hr>
+                                    <h4>Ponte en contacto con nosotros y con mucho gusto atenderemos tus dudas o
+                                        sugerencias
+                                    </h4>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-6">
+                                <form action="/ajax/email" method="POST" onsubmit="return submitEmailForm(this);">
+                                    <!-- Name input -->
+                                    <div class="form-outline mb-4"> <input name="name" type="text" id="form4Example1"
+                                            class="form-control formInput" required="" aria-required="true"> <label class="form-label" for="form4Example1"
+                                            style="margin-left: 0px;">Nombre</label>
+                                        <div class="form-notch">
+                                            <div class="form-notch-leading" style="width: 9px;"></div>
+                                            <div class="form-notch-middle" style="width: 42.4px;"></div>
+                                            <div class="form-notch-trailing"></div>
+                                        </div>
+                                    </div> <!-- Email input -->
+                                    <div class="form-outline mb-4"> <input name="number" type="number" id="form4Example2"
+                                            class="form-control formInput" required="" aria-required="true">
+                                        <label class="form-label" for="form4Example2"
+                                            style="margin-left: 0px;">Teléfono</label>
+                                        <div class="form-notch">
+                                            <div class="form-notch-leading" style="width: 9px;"></div>
+                                            <div class="form-notch-middle" style="width: 88.8px;"></div>
+                                            <div class="form-notch-trailing"></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-outline mb-4"> <input name="email" type="email" id="form4Example2"
+                                            class="form-control formInput" required="" aria-required="true">
+                                        <label class="form-label" for="form4Example2"
+                                            style="margin-left: 0px;">Correo</label>
+                                        <div class="form-notch">
+                                            <div class="form-notch-leading" style="width: 9px;"></div>
+                                            <div class="form-notch-middle" style="width: 88.8px;"></div>
+                                            <div class="form-notch-trailing"></div>
+                                        </div>
+                                    </div>
+                                    <!-- Message input -->
+                                    <div class="form-outline mb-4"> <textarea name="message" class="form-control formInput" id="form4Example3"
+                                            rows="4" required="" aria-required="true"></textarea> <label class="form-label" for="form4Example3"
+                                            style="margin-left: 0px;">Mensaje</label>
+                                        <div class="form-notch">
+                                            <div class="form-notch-leading" style="width: 9px;"></div>
+                                            <div class="form-notch-middle" style="width: 60px;"></div>
+                                            <div class="form-notch-trailing"></div>
+                                        </div>
+                                    </div> <!-- Checkbox -->
+                                    <div class=" form-check d-flex justify-content-center mb-4"> <input
+                                            class="formOrange form-check-input me-2" type="checkbox" value="" id="form4Example4"
+                                            checked="" required="" aria-required="true"> <label class="form-check-label" for="form4Example4">Acepto <a href="/privacidad" class="linkTaquenitos">política de privacidad</a> </label> </div> <!-- Submit button -->
+                                    <!-- Submit button -->
+                                    <button type="submit" class="btn formOrange btn-block"
+                                        aria-controls="#picker-editor "> <span class="text-white">Enviar</span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!---->
+    </div>
+</div>

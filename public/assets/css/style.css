@@ -23,6 +23,13 @@
     background-size: cover;
     padding-bottom: 5%;
 }
+.menuTaqTitle{
+
+    background-image: url("/assets/images/bannerClaro.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bg-light-taque{
     padding-top: 1%;
     padding-bottom: 1%;
@@ -100,12 +107,22 @@
     padding-top: 3%;
     margin-top: -3%;
 }
+.formOrange{
+    background-color: #E84030 !important;
+    border-color: #E84030 !important;
+}
 
 .autenticos{
     text-shadow: 2px 2px #FEDAA0;
     
 }
 .colorLightTaqueñitos{
+    color: #FEDAA0;
+}
+.linkTaquenitos{
+    color: #E84030;
+}
+.linkTaquenitos:hover{
     color: #FEDAA0;
 }
 .colorStrongTaqueñitos{
@@ -117,9 +134,7 @@
 .fontColorOrange{
     color: #E84030;
 }
-.buttonMenu2{
-    margin-left: 2%;
-}
+
 .titlesTaque{
     
 }
@@ -178,6 +193,9 @@
 }
 
 @media(max-width:991px){
+    .card2{
+        margin-top: 8%;
+    }
     .menuDisplayBttmElement{
         margin-top: 15%;
     }
