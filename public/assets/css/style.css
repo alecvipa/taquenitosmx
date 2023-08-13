@@ -193,6 +193,9 @@
 }
 
 @media(max-width:991px){
+    .cardMedia{
+        margin-top: 10%;
+    }
     .card2{
         margin-top: 8%;
     }
