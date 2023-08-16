@@ -9,6 +9,9 @@
     margin-top: 3%;
     
 }
+.bolderFont{
+    font-weight: bolder;
+}
 .pointer {
     cursor: pointer;
 }
