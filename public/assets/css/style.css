@@ -26,6 +26,13 @@
     background-size: cover;
     padding-bottom: 5%;
 }
+.menuContainerDiv{
+    background-image: url("/assets/images/imagenDeMenuT.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
 .menuTaqTitle{
 
     background-image: url("/assets/images/bannerClaro.jpg");
